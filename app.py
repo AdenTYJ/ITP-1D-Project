@@ -47,6 +47,7 @@ if st.button('Get Total'):
     children = st.session_state.children 
     rental = st.session_state.rental 
 
+    period_price = mylibrary.ticket_type_price(ticket_type)
     adults_price, children_price = mylibrary.calculate_total(adults,children)
     guides_cost = mylibrary.audio_guides(st.session_state.rental)
 
