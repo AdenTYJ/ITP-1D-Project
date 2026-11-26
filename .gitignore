@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+bookings.sqlite3
+bookings.sqlite3-journal
+bookings.sqlite3-wal
+bookings.sqlite3-shm
